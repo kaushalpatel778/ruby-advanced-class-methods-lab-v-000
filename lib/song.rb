@@ -8,8 +8,8 @@ class Song
     song
   end
   def self.new_by_name(name)
-    song = self.new
-    song.name = name    
+    song = Song.new
+    song.name = name
     song
   end
   def self.all
