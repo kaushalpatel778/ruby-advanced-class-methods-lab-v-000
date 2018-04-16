@@ -4,9 +4,9 @@ class Song
 
   def self.create
     song = Song.new
-  #  song.save
-  #  song
-    
+    song.save
+    song
+
   end
 
   def self.all
